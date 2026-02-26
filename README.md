@@ -37,7 +37,7 @@ https://dummyjson.com/docs/users
 ## Демо
 
 🔗 GitHub Pages:\
-(вставьте ссылку на деплой)
+http://localhost:5173/
 
 🔗 Репозиторий:\
 https://github.com/AnakinSolo1983/infotecs_Razrabotchik-JS_test_assign
