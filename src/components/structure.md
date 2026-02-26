@@ -1,4 +1,4 @@
-## Project Structure
+## Components Structure
 
 ```
 components/
