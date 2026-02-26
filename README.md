@@ -1,0 +1,1 @@
+# infotecs_Razrabotchik-JS_test_assign
