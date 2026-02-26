@@ -1,0 +1,19 @@
+## Project Structure
+
+```
+src/
+ ├── api/
+ │    └── usersApi.js
+ ├── components/
+ │    ├── UsersTable.jsx
+ │    ├── Pagination.jsx
+ │    ├── UserModal.jsx
+ │    └── Filters.jsx
+ ├── hooks/
+ │    └── useUsers.js
+ ├── utils/
+ │    └── getNextSortOrder.js
+ ├── App.jsx
+ ├── main.jsx
+ └── index.css
+```
