@@ -1,0 +1,97 @@
+/* 
+  Глобальные переменные и базовые настройки документа
+*/
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif; /* Базовый стек шрифтов */
+  line-height: 1.5;     /* Межстрочный интервал */
+  font-weight: 400;     /* Толщина шрифта по умолчанию */
+
+  color-scheme: light dark; /* Поддержка светлой и тёмной темы */
+  color: rgba(161, 9, 9, 0.87); /* Основной цвет текста (тёмно-красный) */
+  background-color: #242424;   /* Цвет фона (тёмный) */
+
+  font-synthesis: none;              /* Отключение синтеза шрифтов */
+  text-rendering: optimizeLegibility;/* Оптимизация читаемости текста */
+  -webkit-font-smoothing: antialiased; /* Сглаживание шрифтов (Chrome, Safari) */
+  -moz-osx-font-smoothing: grayscale;  /* Сглаживание шрифтов (Firefox macOS) */
+}
+
+/* 
+  Стили ссылок
+*/
+a {
+  font-weight: 500;        /* Полужирный текст */
+  color: #646cff;          /* Цвет ссылки */
+  text-decoration: inherit;/* Наследование оформления (убираем underline) */
+}
+
+a:hover {
+  color: #535bf2; /* Цвет ссылки при наведении */
+}
+
+/* 
+  Базовые стили для body
+*/
+body {
+  margin: 0;              /* Убираем стандартные отступы браузера */
+  display: flex;          /* Flex-контейнер */
+  place-items: center;    /* Центрирование содержимого по вертикали и горизонтали */
+  min-width: 320px;       /* Минимальная ширина */
+  min-height: 100vh;      /* Минимальная высота — весь экран */
+}
+
+/* 
+  Заголовок первого уровня
+*/
+h1 {
+  font-size: 3.2em; /* Увеличенный размер */
+  line-height: 1.1; /* Более плотный межстрочный интервал */
+}
+
+/* 
+  Общие стили кнопок
+*/
+button {
+  border-radius: 8px;        /* Скруглённые углы */
+  border: 1px solid transparent; /* Прозрачная граница (для hover-эффекта) */
+  padding: 0.6em 1.2em;      /* Внутренние отступы */
+  font-size: 1em;            /* Размер текста */
+  font-weight: 500;          /* Полужирный текст */
+  font-family: inherit;      /* Наследование шрифта */
+  background-color: #1a1a1a; /* Тёмный фон кнопки */
+  cursor: pointer;           /* Курсор-указатель */
+  transition: border-color 0.25s; /* Плавное изменение цвета рамки */
+}
+
+/* 
+  Эффект при наведении на кнопку
+*/
+button:hover {
+  border-color: #646cff; /* Подсветка рамки */
+}
+
+/* 
+  Стили фокуса (для доступности)
+*/
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color; /* Стандартная подсветка фокуса */
+}
+
+/* 
+  Светлая тема (если система пользователя в light-mode)
+*/
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;         /* Тёмный текст */
+    background-color: #ffffff; /* Светлый фон */
+  }
+
+  a:hover {
+    color: #747bff; /* Цвет ссылки при hover в светлой теме */
+  }
+
+  button {
+    background-color: #f9f9f9; /* Светлый фон кнопки */
+  }
+}
