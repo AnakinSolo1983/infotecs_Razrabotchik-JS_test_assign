@@ -79,25 +79,20 @@ https://github.com/AnakinSolo1983/infotecs_Razrabotchik-JS_test_assign
 Примерная структура:
 
     src/
+     ├── api/
+     │    └── usersApi.js
      ├── components/
-     │   ├── Table/
-     │   ├── TableHeader/
-     │   ├── TableRow/
-     │   ├── Pagination/
-     │   ├── Filters/
-     │   ├── Modal/
-     │   └── ColumnResizer/
-     │
+     │    ├── UsersTable.jsx
+     │    ├── Pagination.jsx
+     │    ├── UserModal.jsx
+     │    └── Filters.jsx
      ├── hooks/
-     │   ├── useUsers.js
-     │   ├── useSort.js
-     │   └── usePagination.js
-     │
-     ├── services/
-     │   └── api.js
-     │
-     ├── App.js
-     └── index.js
+     │    └── useUsers.js
+     ├── utils/
+     │    └── getNextSortOrder.js
+     ├── App.jsx
+     ├── main.jsx
+     └── index.css
 
 
 ------------------------------------------------------------------------
