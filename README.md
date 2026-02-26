@@ -36,10 +36,10 @@ https://dummyjson.com/docs/users
 
 ## Демо
 
-🔗 GitHub Pages:\
+- GitHub Pages:\
 http://localhost:5173/
 
-🔗 Репозиторий:\
+- Репозиторий:\
 https://github.com/AnakinSolo1983/infotecs_Razrabotchik-JS_test_assign
 
 ------------------------------------------------------------------------
